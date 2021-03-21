@@ -1,0 +1,72 @@
+body {
+background-color: white;
+    font: normal 10pt Arial;
+    text-align: center;
+    width: auto;
+}
+
+header{
+    padding: -5px;
+    text-align: center;
+}
+
+#LogoXomano{
+    width: 20%;
+    height: 20%;
+}
+
+.SubTitulo{
+   font-size: 24px;
+   text-align: center;
+   color: #10802a;
+}
+
+#NumeroSorteados1{
+    font-size: 20px;
+    
+}
+
+.Titulo{
+    font-size: 34px;
+    text-align: center;
+    color: #10802a;
+ }
+
+
+section{
+
+background:#10802a;
+/*display: inline-block;*/
+color: white;
+border-radius: 10px;
+text-align: center;
+padding: 4px;
+width: 900px;
+margin: auto;
+box-shadow: 155px 155px 100 px rgb(0, 0, 0);
+
+}
+
+#Msg{
+    font-size: 30px;
+}
+
+#data{
+    font-size: 8px;
+}
+/*
+tr :hover{
+
+    background-color: rgb(151, 126, 126);
+    font-size: 25px;
+    opacity: 0.4;
+    transition: 600ms;
+}
+
+a :hover{
+    
+    color: rgb(93, 107, 95);
+    background-color: darkmagenta;
+    text-decoration: none;
+}
+*/

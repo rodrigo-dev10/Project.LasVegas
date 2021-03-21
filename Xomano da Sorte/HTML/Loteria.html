@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="Titulo">Xomano da Sorte</title>
+
+    <link rel="stylesheet" href="C:\Project.LasVegas\Xomano da Sorte\Style\Loteria.css">
+</head>
+<header>
+    <h1 class="Titulo">Xomano(a) da Sorte</h1>
+
+
+
+    <picture><img id="LogoXomano" src="C:\Project.LasVegas\Xomano da Sorte\Imagens\LogoSorte.png" alt="logo"></picture>
+    <h1 class="SubTitulo">Aqui océ fica rico Xomano!</h1>
+
+</header>
+
+<section>
+    <script>
+        var nome = prompt("Informe seu Nome")
+    </script>
+    <h2>Qual jogo océ vai jogar?</h2>
+    <div id="button">
+       
+        <input type="button" value="Mega Sena" onclick="MegaSena()">
+        <input type="button" value="Loto Facil" onclick="LotoFacil()">
+        <input type="button" value="Loto Mania" onclick="LotaMania()">
+        <input type="button" value="Quina" onclick="Quina()">
+    </div>
+
+    </setion>
+    <h2>Espia xeus numeros:</h2>
+    <h4>
+        <p>
+        <div id="NumeroSorteados1">
+        </div>
+        </p>
+    </h4>
+    <h1>
+        <div id="Msg"></div>
+    </h1>
+    <script src="C:\Project.LasVegas\Xomano da Sorte\JS\MegaSena.js"></script>
+    <script src="C:\Project.LasVegas\Xomano da Sorte\JS\LotoFacil.js"></script>
+    <script src="C:\Project.LasVegas\Xomano da Sorte\JS\LotoMania.js"></script>
+    <script src="C:\Project.LasVegas\Xomano da Sorte\JS\Quina.js"></script>
+
+
+    </body>
+    <footer>
+
+        <p>
+<hr>
+            Conect Tecnologia
+        </p>
+    </footer>
+    <div id="data">
+
+    </div>
+
+</html>
