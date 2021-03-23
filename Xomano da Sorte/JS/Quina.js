@@ -4,7 +4,7 @@ function Quina() {
 
 
     if (Confirmacao == true) {
-        Msg.innerHTML +=(`Boa Sorte ${nome}`)
+        Msg.innerHTML = (`Boa Sorte ${nome}`)
         for (i = 0; i <= 4; i++) {
             NumeroSorteados = Math.floor(Math.random(1) * 49);
             if (NumeroSorteados == NumeroSorteados) {
